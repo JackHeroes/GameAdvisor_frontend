@@ -135,6 +135,7 @@ def calcular_compatibilidade(jogo, jogador):
     if jogador['genero_preferido'] in jogo['genero'] and jogador['plataforma'] in jogo['plataformas']:
         faixa_preco = jogo['preco']
         faixa_preco_jogador = faixas_de_preco.get(jogador['faixa_de_preco'])
+        
         tempo_medio = jogo['tempo_medio_para_zerar']
         tempo_medio_jogador = tempos_medios.get(jogador['tempo_medio'])
 
