@@ -1,0 +1,180 @@
+{
+    "jogos": [
+        {
+            "titulo": "Grand Theft Auto V",
+            "genero": "Ação e aventura",
+            "plataformas": ["PC", "PlayStation", "Xbox"],
+            "preco": 90.99,
+            "tempo_medio_para_zerar": 40,
+            "metacritic": 97
+        },
+        {
+            "titulo": "Marvel's Spider-Man 2",
+            "genero": "Ação e aventura",
+            "plataformas": ["PlayStation"],
+            "preco": 349.90,
+            "tempo_medio_para_zerar": 30,
+            "metacritic": 90
+        },
+        {
+            "titulo": "Red Dead Redemption 2",
+            "genero": "Ação e aventura",
+            "plataformas": ["PC", "PlayStation", "Xbox"],
+            "preco": 299.90,
+            "tempo_medio_para_zerar": 80,
+            "metacritic": 97
+        },
+        {
+            "titulo": "UNCHARTED™: Legado dos Ladrões",
+            "genero": "Ação e aventura",
+            "plataformas": ["PC", "PlayStation"],
+            "preco": 199.90,
+            "tempo_medio_para_zerar": 30,
+            "metacritic": 87
+        },
+        {
+            "titulo": "Borderlands 3",
+            "genero": "FPS",
+            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
+            "preco": 119.90,
+            "tempo_medio_para_zerar": 40,
+            "metacritic": 81
+        },
+        {
+            "titulo": "Far Cry 6",
+            "genero": "FPS",
+            "plataformas": ["PC", "PlayStation", "Xbox"],
+            "preco": 249.99,
+            "tempo_medio_para_zerar": 40,
+            "metacritic": 73
+        },
+        {
+            "titulo": "Dragon Quest XI",
+            "genero": "JRPG",
+            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
+            "preco": 169.90,
+            "tempo_medio_para_zerar": 80,
+            "metacritic": 91
+        },
+        {
+            "titulo": "Final Fantasy XVI",
+            "genero": "JRPG",
+            "plataformas": ["PlayStation"],
+            "preco": 349.90,
+            "tempo_medio_para_zerar": 60,
+            "metacritic": 87
+        },
+        {
+            "titulo": "Tales of Arise",
+            "genero": "JRPG",
+            "plataformas": ["PC", "PlayStation", "Xbox"],
+            "preco": 154.90,
+            "tempo_medio_para_zerar": 60,
+            "metacritic": 87
+        },
+        {
+            "titulo": "Trials of Mana",
+            "genero": "JRPG",
+            "plataformas": ["PC", "Nintendo", "PlayStation"],
+            "preco": 159.99 ,
+            "tempo_medio_para_zerar": 30,
+            "metacritic": 76
+        },
+        {
+            "titulo": "Cyberpunk 2077",
+            "genero": "RPG de ação",
+            "plataformas": ["PC", "PlayStation", "Xbox"],
+            "preco": 199.90,
+            "tempo_medio_para_zerar": 60,
+            "metacritic": 86
+        },
+        {
+            "titulo": "Dark Souls III",
+            "genero": "RPG de ação",
+            "plataformas": ["PC", "PlayStation", "Xbox"],
+            "preco": 229.90,
+            "tempo_medio_para_zerar": 50,
+            "metacritic": 89
+        },
+        {
+            "titulo": "Elden Ring",
+            "genero": "RPG de ação",
+            "plataformas": ["PC", "PlayStation", "Xbox"],
+            "preco": 229.90,
+            "tempo_medio_para_zerar": 100,
+            "metacritic": 96
+        },
+        {
+            "titulo": "God of War Ragnarök",
+            "genero": "RPG de ação",
+            "plataformas": ["PlayStation"],
+            "preco": 349.90,
+            "tempo_medio_para_zerar": 40,
+            "metacritic": 94
+        },
+        {
+            "titulo": "Starfield",
+            "genero": "RPG de ação",
+            "plataformas": ["PC", "Xbox"],
+            "preco": 299.00,
+            "tempo_medio_para_zerar": 60,
+            "metacritic": 83
+        },
+        {
+            "titulo": "The Elder Scrolls V: Skyrim",
+            "genero": "RPG de ação",
+            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
+            "preco": 149.00,
+            "tempo_medio_para_zerar": 110,
+            "metacritic": 96
+        },
+        {
+            "titulo": "The Legend of Zelda: Tears of the Kingdom",
+            "genero": "RPG de ação",
+            "plataformas": ["Nintendo"],
+            "preco": 357.99,
+            "tempo_medio_para_zerar": 100,
+            "metacritic": 96
+        },
+        {
+            "titulo": "The Witcher 3: Wild Hunt",
+            "genero": "RPG de ação",
+            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
+            "preco": 129.99,
+            "tempo_medio_para_zerar": 100,
+            "metacritic": 92
+        },
+        {
+            "titulo": "Baldur's Gate III",
+            "genero": "RPG tático",
+            "plataformas": ["PC", "PlayStation", "Xbox"],
+            "preco": 199.99,
+            "tempo_medio_para_zerar": 100,
+            "metacritic": 96
+        },
+        {
+            "titulo": "Battle Chasers: Nightwar",
+            "genero": "RPG tático",
+            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
+            "preco": 55.99,
+            "tempo_medio_para_zerar": 40,
+            "metacritic": 75
+        },
+        {
+            "titulo": "Divinity: Original Sin 2",
+            "genero": "RPG tático",
+            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
+            "preco": 90.99,
+            "tempo_medio_para_zerar": 100,
+            "metacritic": 93
+        },
+        {
+            "titulo": "Pillars of Eternity II: Deadfire",
+            "genero": "RPG tático",
+            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
+            "preco": 74.00,
+            "tempo_medio_para_zerar": 70,
+            "metacritic": 88
+        }
+    ]
+}
