@@ -1,8 +1,8 @@
 from tkinter import messagebox
 from tkinter import ttk
 import json
-import tkinter
 import random  
+import tkinter
 
 generos_validos = ["Ação e aventura", "FPS", "JRPG", "RPG de ação", "RPG tático"]
 plataformas_validas = ["PC", "Nintendo", "PlayStation", "Xbox"]
@@ -33,50 +33,48 @@ def criar_interface():
 
     label_genero = tkinter.Label(janela, text="Gênero favorito:")
     label_genero.pack()
-    generos = ["Ação e aventura", "FPS", "JRPG", "RPG de ação", "RPG tático"]
+    generos = generos_validos
     genero_combobox = ttk.Combobox(janela, values=generos)
     genero_combobox.pack()
     genero_combobox.config(width=30)
 
     label_plataforma = tkinter.Label(janela, text="Plataforma:")
     label_plataforma.pack()
-    plataformas = ["PC", "Nintendo", "PlayStation", "Xbox"]
+    plataformas = plataformas_validas
     plataforma_combobox = ttk.Combobox(janela, values=plataformas)
     plataforma_combobox.pack()
     plataforma_combobox.config(width=30)
 
     label_faixa_de_preco = tkinter.Label(janela, text="Faixa de Preço:")
     label_faixa_de_preco.pack()
-    faixas_de_preco = ["Até 50 reais", "Até 100 reais", "Até 200 reais", "Até 400 reais"]
+    faixas_de_preco = faixas_de_preco_validas
     faixa_de_preco_combobox = ttk.Combobox(janela, values=faixas_de_preco)
     faixa_de_preco_combobox.pack()
     faixa_de_preco_combobox.config(width=30)
 
     label_tempo_medio = tkinter.Label(janela, text="Tempo Médio para Zerar:")
     label_tempo_medio.pack()
-    tempos_medio = ["Curto", "Longo", "Muito longo"]
+    tempos_medio = tempos_medio_validos
     tempo_medio_combobox = ttk.Combobox(janela, values=tempos_medio)
     tempo_medio_combobox.pack()
     tempo_medio_combobox.config(width=30)
 
-    botao_coletar = tkinter.Button(janela, text="Enviar", command=lambda: coletar_informacoes(entry_nome, entry_idade, genero_combobox, plataforma_combobox, faixa_de_preco_combobox, tempo_medio_combobox, label_resultado))
+    botao_coletar = tkinter.Button(janela, text="Enviar", command=lambda: coletar_informacoes(genero_combobox, plataforma_combobox, faixa_de_preco_combobox, tempo_medio_combobox, label_resultado))
     botao_coletar.pack()
-    botao_coletar.config(padx=10, pady=5)
-    botao_coletar.config(fg="white")
     botao_coletar.config(bg="blue")
+    botao_coletar.config(fg="white")
+    botao_coletar.config(padx=10, pady=5)
 
     label_resultado = tkinter.Label(janela, text="")
     label_resultado.pack()
 
     janela.mainloop()
 
-def coletar_informacoes(entry_nome, entry_idade, genero_combobox, plataforma_combobox, faixa_de_preco_combobox, tempo_combobox, label_resultado):
-    nome = entry_nome.get()
-    idade = entry_idade.get()
+def coletar_informacoes(genero_combobox, plataforma_combobox, faixa_de_preco_combobox, tempo_medio_combobox, label_resultado):
     genero = genero_combobox.get()
     plataforma = plataforma_combobox.get()
     faixa_de_preco = faixa_de_preco_combobox.get()
-    tempo_medio = tempo_combobox.get()
+    tempo_medio = tempo_medio_combobox.get()
 
     if genero not in generos_validos:
         messagebox.showerror("Erro", "Gênero inválido")
@@ -102,13 +100,23 @@ def coletar_informacoes(entry_nome, entry_idade, genero_combobox, plataforma_com
         'tempo_medio': tempo_medio
     }
 
-    jogos_recomendados = recomendar_jogos(dados, jogador)
+    jogo_recomendado = recomendar_jogo(dados, jogador)
 
     resultado_text = "Jogo Recomendado:\n"
-    jogo_recomendado = jogos_recomendados[0]
     resultado_text += jogo_recomendado["titulo"]
 
     label_resultado.config(text=resultado_text)
+
+def recomendar_jogo(dados, jogador):
+    jogos = dados.get("jogos", [])
+    jogos_compativeis = []
+
+    for jogo in jogos:
+        if calcular_compatibilidade(jogo, jogador):
+            jogos_compativeis.append(jogo)
+
+    jogo_recomendado = random.choice(jogos_compativeis)
+    return jogo_recomendado
 
 def calcular_compatibilidade(jogo, jogador):
     faixas_de_preco = {
@@ -123,44 +131,16 @@ def calcular_compatibilidade(jogo, jogador):
         "Longo": (31, 60),
         "Muito longo": (61, 200)
     }
-    
-    if jogo['genero'] != jogador['genero_preferido']:
-        return 0 
 
-    if jogador['plataforma'] not in jogo['plataformas']:
-        return 0 
+    if jogador['genero_preferido'] in jogo['genero'] and jogador['plataforma'] in jogo['plataformas']:
+        faixa_preco = jogo['preco']
+        faixa_preco_jogador = faixas_de_preco.get(jogador['faixa_de_preco'])
+        tempo_medio = jogo['tempo_medio_para_zerar']
+        tempo_medio_jogador = tempos_medios.get(jogador['tempo_medio'])
 
-    pontuacao = 0
+        if faixa_preco <= faixa_preco_jogador and tempo_medio_jogador[0] <= tempo_medio <= tempo_medio_jogador[1]:
+            return True
 
-    preco = jogo['preco']
-    if preco <= faixas_de_preco.get(jogador['faixa_de_preco'], 0):
-        pontuacao += 1
-
-    tempo_medio = jogo['tempo_medio_para_zerar']
-    intervalo_tempo = tempos_medios.get(jogador['tempo_medio'], (0, 0))
-
-    if intervalo_tempo[0] <= tempo_medio <= intervalo_tempo[1]:
-        pontuacao += 1
-
-    return pontuacao
-
-def recomendar_jogos(dados, jogador):
-    jogos = dados.get("jogos", [])
-    jogos_com_pontuacao = []
-
-    for jogo in jogos:
-        pontuacao = calcular_compatibilidade(jogo, jogador)
-        if pontuacao > 0:
-            jogos_com_pontuacao.append((jogo, pontuacao))
-
-    jogos_com_pontuacao.sort(key=lambda x: x[1], reverse=True)
-
-    maior_pontuacao = jogos_com_pontuacao[0][1]
-
-    jogos_melhores = [jogo for jogo, pontuacao in jogos_com_pontuacao if pontuacao == maior_pontuacao]
-
-    jogo_recomendado = random.choice(jogos_melhores)
-
-    return [jogo_recomendado]
+    return False
 
 criar_interface()
