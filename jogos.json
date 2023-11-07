@@ -32,6 +32,14 @@
             "tempo_medio_para_zerar": 30,
             "metacritic": 87
         },
+         {
+            "titulo": "Yakuza Zero",
+            "genero": "Ação e aventura",
+            "plataformas": ["PC", "PlayStation", "Xbox"],
+            "preco": 89.50,
+            "tempo_medio_para_zerar": 30,
+            "metacritic": 85
+        },
         {
             "titulo": "Borderlands 3",
             "genero": "FPS",
@@ -79,6 +87,14 @@
             "preco": 159.99 ,
             "tempo_medio_para_zerar": 30,
             "metacritic": 76
+        },
+        {
+            "titulo": "Ni no Kuni II: Revenant Kingdom",
+            "genero": "JRPG",
+            "plataformas": ["PC", "Nintendo", "PlayStation"],
+            "preco": 259.99 ,
+            "tempo_medio_para_zerar": 40,
+            "metacritic": 84
         },
         {
             "titulo": "Cyberpunk 2077",
