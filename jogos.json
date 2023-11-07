@@ -33,6 +33,30 @@
             "metacritic": 87
         },
         {
+            "titulo": "Yakuza Zero",
+            "genero": "Ação e aventura",
+            "plataformas": ["PC", "PlayStation", "Xbox"],
+            "preco": 89.50,
+            "tempo_medio_para_zerar": 30,
+            "metacritic": 85
+        },
+        {
+            "titulo": "Horizon Zero Dawn",
+            "genero": "Ação e aventura",
+            "plataformas": ["PC", "PlayStation"],
+            "preco": 99.50,
+            "tempo_medio_para_zerar": 30,
+            "metacritic": 89
+        },
+        {
+            "titulo": "Ghost of Tsushima",
+            "genero": "Ação e aventura",
+            "plataformas": ["PlayStation"],
+            "preco": 299.90,
+            "tempo_medio_para_zerar": 30,
+            "metacritic": 83
+        },
+        {
             "titulo": "Borderlands 3",
             "genero": "FPS",
             "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
