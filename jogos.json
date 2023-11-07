@@ -1,6 +1,14 @@
 {
     "jogos": [
         {
+            "titulo": "Ghost of Tsushima",
+            "genero": "Ação e aventura",
+            "plataformas": ["PlayStation"],
+            "preco": 349.99,
+            "tempo_medio_para_zerar": 50,
+            "metacritic": 83
+        },
+        {
             "titulo": "Grand Theft Auto V",
             "genero": "Ação e aventura",
             "plataformas": ["PC", "PlayStation", "Xbox"],
@@ -33,28 +41,12 @@
             "metacritic": 87
         },
         {
-            "titulo": "Yakuza Zero",
+            "titulo": "Yakuza 0",
             "genero": "Ação e aventura",
             "plataformas": ["PC", "PlayStation", "Xbox"],
             "preco": 89.50,
-            "tempo_medio_para_zerar": 30,
+            "tempo_medio_para_zerar": 60,
             "metacritic": 85
-        },
-        {
-            "titulo": "Horizon Zero Dawn",
-            "genero": "Ação e aventura",
-            "plataformas": ["PC", "PlayStation"],
-            "preco": 99.50,
-            "tempo_medio_para_zerar": 30,
-            "metacritic": 89
-        },
-        {
-            "titulo": "Ghost of Tsushima",
-            "genero": "Ação e aventura",
-            "plataformas": ["PlayStation"],
-            "preco": 299.90,
-            "tempo_medio_para_zerar": 30,
-            "metacritic": 83
         },
         {
             "titulo": "Borderlands 3",
@@ -143,6 +135,14 @@
             "preco": 229.90,
             "tempo_medio_para_zerar": 100,
             "metacritic": 96
+        },
+        {
+            "titulo": "Horizon Zero Dawn",
+            "genero": "RPG",
+            "plataformas": ["PC", "PlayStation"],
+            "preco": 199.90,
+            "tempo_medio_para_zerar": 50,
+            "metacritic": 84
         },
         {
             "titulo": "Indivisible",
