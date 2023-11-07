@@ -6,7 +6,7 @@ import tkinter
 
 generos_validos = ["Ação e aventura", "FPS", "JRPG", "RPG de ação", "RPG tático"]
 plataformas_validas = ["PC", "Nintendo", "PlayStation", "Xbox"]
-faixas_de_preco_validas = ["Até 50 reais", "Até 100 reais", "Até 200 reais", "Até 400 reais"]
+faixas_de_preco_validas = ["Até 100 reais", "Até 200 reais", "Até 400 reais"]
 tempos_medio_validos = ["Curto", "Longo", "Muito longo"]
 
 def ler_dados():
@@ -120,7 +120,6 @@ def recomendar_jogo(dados, jogador):
 
 def calcular_compatibilidade(jogo, jogador):
     faixas_de_preco = {
-        "Até 50 reais": 50,
         "Até 100 reais": 100,
         "Até 200 reais": 200,
         "Até 400 reais": 400
@@ -135,7 +134,6 @@ def calcular_compatibilidade(jogo, jogador):
     if jogador['genero_preferido'] in jogo['genero'] and jogador['plataforma'] in jogo['plataformas']:
         faixa_preco = jogo['preco']
         faixa_preco_jogador = faixas_de_preco.get(jogador['faixa_de_preco'])
-        
         tempo_medio = jogo['tempo_medio_para_zerar']
         tempo_medio_jogador = tempos_medios.get(jogador['tempo_medio'])
 

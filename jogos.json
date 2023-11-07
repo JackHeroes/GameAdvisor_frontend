@@ -49,104 +49,8 @@
             "metacritic": 73
         },
         {
-            "titulo": "Dragon Quest XI",
-            "genero": "JRPG",
-            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
-            "preco": 169.90,
-            "tempo_medio_para_zerar": 80,
-            "metacritic": 91
-        },
-        {
-            "titulo": "Final Fantasy XVI",
-            "genero": "JRPG",
-            "plataformas": ["PlayStation"],
-            "preco": 349.90,
-            "tempo_medio_para_zerar": 60,
-            "metacritic": 87
-        },
-        {
-            "titulo": "Tales of Arise",
-            "genero": "JRPG",
-            "plataformas": ["PC", "PlayStation", "Xbox"],
-            "preco": 154.90,
-            "tempo_medio_para_zerar": 60,
-            "metacritic": 87
-        },
-        {
-            "titulo": "Trials of Mana",
-            "genero": "JRPG",
-            "plataformas": ["PC", "Nintendo", "PlayStation"],
-            "preco": 159.99 ,
-            "tempo_medio_para_zerar": 30,
-            "metacritic": 76
-        },
-        {
-            "titulo": "Cyberpunk 2077",
-            "genero": "RPG de ação",
-            "plataformas": ["PC", "PlayStation", "Xbox"],
-            "preco": 199.90,
-            "tempo_medio_para_zerar": 60,
-            "metacritic": 86
-        },
-        {
-            "titulo": "Dark Souls III",
-            "genero": "RPG de ação",
-            "plataformas": ["PC", "PlayStation", "Xbox"],
-            "preco": 229.90,
-            "tempo_medio_para_zerar": 50,
-            "metacritic": 89
-        },
-        {
-            "titulo": "Elden Ring",
-            "genero": "RPG de ação",
-            "plataformas": ["PC", "PlayStation", "Xbox"],
-            "preco": 229.90,
-            "tempo_medio_para_zerar": 100,
-            "metacritic": 96
-        },
-        {
-            "titulo": "God of War Ragnarök",
-            "genero": "RPG de ação",
-            "plataformas": ["PlayStation"],
-            "preco": 349.90,
-            "tempo_medio_para_zerar": 40,
-            "metacritic": 94
-        },
-        {
-            "titulo": "Starfield",
-            "genero": "RPG de ação",
-            "plataformas": ["PC", "Xbox"],
-            "preco": 299.00,
-            "tempo_medio_para_zerar": 60,
-            "metacritic": 83
-        },
-        {
-            "titulo": "The Elder Scrolls V: Skyrim",
-            "genero": "RPG de ação",
-            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
-            "preco": 149.00,
-            "tempo_medio_para_zerar": 110,
-            "metacritic": 96
-        },
-        {
-            "titulo": "The Legend of Zelda: Tears of the Kingdom",
-            "genero": "RPG de ação",
-            "plataformas": ["Nintendo"],
-            "preco": 357.99,
-            "tempo_medio_para_zerar": 100,
-            "metacritic": 96
-        },
-        {
-            "titulo": "The Witcher 3: Wild Hunt",
-            "genero": "RPG de ação",
-            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
-            "preco": 129.99,
-            "tempo_medio_para_zerar": 100,
-            "metacritic": 92
-        },
-        {
             "titulo": "Baldur's Gate III",
-            "genero": "RPG tático",
+            "genero": "RPG",
             "plataformas": ["PC", "PlayStation", "Xbox"],
             "preco": 199.99,
             "tempo_medio_para_zerar": 100,
@@ -154,27 +58,179 @@
         },
         {
             "titulo": "Battle Chasers: Nightwar",
-            "genero": "RPG tático",
+            "genero": "RPG",
             "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
             "preco": 55.99,
             "tempo_medio_para_zerar": 40,
             "metacritic": 75
         },
         {
+            "titulo": "Cyberpunk 2077",
+            "genero": "RPG",
+            "plataformas": ["PC", "PlayStation", "Xbox"],
+            "preco": 199.90,
+            "tempo_medio_para_zerar": 60,
+            "metacritic": 86
+        },
+        {
+            "titulo": "Dark Souls III",
+            "genero": "RPG",
+            "plataformas": ["PC", "PlayStation", "Xbox"],
+            "preco": 229.90,
+            "tempo_medio_para_zerar": 50,
+            "metacritic": 89
+        },
+        {
             "titulo": "Divinity: Original Sin 2",
-            "genero": "RPG tático",
+            "genero": "RPG",
             "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
             "preco": 90.99,
             "tempo_medio_para_zerar": 100,
             "metacritic": 93
         },
         {
+            "titulo": "Dragon Age: Inquisition",
+            "genero": "RPG",
+            "plataformas": ["PC", "PlayStation", "Xbox"],
+            "preco": 199.00,
+            "tempo_medio_para_zerar": 100,
+            "metacritic": 85
+        },
+        {
+            "titulo": "Dragon Quest XI",
+            "genero": "RPG",
+            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
+            "preco": 169.90,
+            "tempo_medio_para_zerar": 80,
+            "metacritic": 91
+        },
+        {
+            "titulo": "Earthlock",
+            "genero": "RPG",
+            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
+            "preco": 90.00,
+            "tempo_medio_para_zerar": 30,
+            "metacritic": 73
+        },
+        {
+            "titulo": "Elden Ring",
+            "genero": "RPG",
+            "plataformas": ["PC", "PlayStation", "Xbox"],
+            "preco": 229.90,
+            "tempo_medio_para_zerar": 100,
+            "metacritic": 96
+        },
+        {
+            "titulo": "Indivisible",
+            "genero": "RPG",
+            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
+            "preco": 141.86,
+            "tempo_medio_para_zerar": 20,
+            "metacritic": 77
+        },
+        {
+            "titulo": "Fable Anniversary",
+            "genero": "RPG",
+            "plataformas": ["PC", "Xbox"],
+            "preco": 63.99,
+            "tempo_medio_para_zerar": 20,
+            "metacritic": 68
+        },
+        {
+            "titulo": "Final Fantasy XVI",
+            "genero": "RPG",
+            "plataformas": ["PlayStation"],
+            "preco": 349.90,
+            "tempo_medio_para_zerar": 60,
+            "metacritic": 87
+        },
+        {
+            "titulo": "God of War Ragnarök",
+            "genero": "RPG",
+            "plataformas": ["PlayStation"],
+            "preco": 349.90,
+            "tempo_medio_para_zerar": 40,
+            "metacritic": 94
+        },
+        {
+            "titulo": "GreedFall",
+            "genero": "RPG",
+            "plataformas": ["PC", "PlayStation", "Xbox"],
+            "preco": 119.90,
+            "tempo_medio_para_zerar": 40,
+            "metacritic": 72
+        },
+        {
+            "titulo": "Ni no Kuni II: Revenant Kingdom",
+            "genero": "RPG",
+            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
+            "preco": 257.90,
+            "tempo_medio_para_zerar": 50,
+            "metacritic": 84
+        },
+        {
             "titulo": "Pillars of Eternity II: Deadfire",
-            "genero": "RPG tático",
+            "genero": "RPG",
             "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
             "preco": 74.00,
             "tempo_medio_para_zerar": 70,
             "metacritic": 88
+        },
+        {
+            "titulo": "Starfield",
+            "genero": "RPG",
+            "plataformas": ["PC", "Xbox"],
+            "preco": 299.00,
+            "tempo_medio_para_zerar": 60,
+            "metacritic": 83
+        },
+        {
+            "titulo": "Tales of Arise",
+            "genero": "RPG",
+            "plataformas": ["PC", "PlayStation", "Xbox"],
+            "preco": 154.90,
+            "tempo_medio_para_zerar": 60,
+            "metacritic": 87
+        },
+        {
+            "titulo": "The Dwarves",
+            "genero": "RPG",
+            "plataformas": ["PC", "PlayStation", "Xbox"],
+            "preco": 69.99,
+            "tempo_medio_para_zerar": 10,
+            "metacritic": 61
+        },
+        {
+            "titulo": "The Elder Scrolls V: Skyrim",
+            "genero": "RPG",
+            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
+            "preco": 149.00,
+            "tempo_medio_para_zerar": 110,
+            "metacritic": 96
+        },
+        {
+            "titulo": "The Legend of Zelda: Tears of the Kingdom",
+            "genero": "RPG",
+            "plataformas": ["Nintendo"],
+            "preco": 357.99,
+            "tempo_medio_para_zerar": 100,
+            "metacritic": 96
+        },
+        {
+            "titulo": "The Witcher 3: Wild Hunt",
+            "genero": "RPG",
+            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
+            "preco": 129.99,
+            "tempo_medio_para_zerar": 100,
+            "metacritic": 92
+        },
+        {
+            "titulo": "Trials of Mana",
+            "genero": "RPG",
+            "plataformas": ["PC", "Nintendo", "PlayStation"],
+            "preco": 159.99 ,
+            "tempo_medio_para_zerar": 30,
+            "metacritic": 76
         }
     ]
 }
