@@ -165,6 +165,9 @@ def mostrar_recomendacao(frame_formulario, jogo_recomendado):
 
     botao_voltar = tkinter.Button(frame_formulario, text="Solicitar outra recomendação", command=lambda: reiniciar(frame_formulario))
     botao_voltar.pack()
+    botao_voltar.config(bg="blue")
+    botao_voltar.config(fg="white")
+    botao_voltar.config(padx=10, pady=5)
 
 def reiniciar(janela):
     janela.destroy()
