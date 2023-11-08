@@ -10,11 +10,13 @@ faixas_de_preco_validas = ["Até 100 reais", "Até 200 reais", "Até 400 reais"]
 tempos_medio_validos = ["Curto", "Longo", "Muito longo"]
 
 def ler_dados():
+
     with open("jogos.json", "r", encoding="utf-8") as arquivo_json:
         dados = json.load(arquivo_json)
     return dados
 
 def criar_interface():
+
     global janela
     janela = tkinter.Tk()
     janela.title("GameAdvisor")
@@ -38,28 +40,28 @@ def criar_interface():
     label_genero = tkinter.Label(frame_formulario, text="Gênero favorito:")
     label_genero.pack()
     generos = generos_validos
-    genero_combobox = ttk.Combobox(frame_formulario, values=generos)
+    genero_combobox = ttk.Combobox(frame_formulario, values=generos, state="readonly", textvariable=generos)
     genero_combobox.pack()
     genero_combobox.config(width=30)
 
     label_plataforma = tkinter.Label(frame_formulario, text="Plataforma:")
     label_plataforma.pack()
     plataformas = plataformas_validas
-    plataforma_combobox = ttk.Combobox(frame_formulario, values=plataformas)
+    plataforma_combobox = ttk.Combobox(frame_formulario, values=plataformas, state="readonly", textvariable=plataformas)
     plataforma_combobox.pack()
     plataforma_combobox.config(width=30)
 
     label_faixa_de_preco = tkinter.Label(frame_formulario, text="Faixa de preço:")
     label_faixa_de_preco.pack()
     faixas_de_preco = faixas_de_preco_validas
-    faixa_de_preco_combobox = ttk.Combobox(frame_formulario, values=faixas_de_preco)
+    faixa_de_preco_combobox = ttk.Combobox(frame_formulario, values=faixas_de_preco, state="readonly", textvariable=faixas_de_preco)
     faixa_de_preco_combobox.pack()
     faixa_de_preco_combobox.config(width=30)
 
     label_tempo_medio = tkinter.Label(frame_formulario, text="Tempo médio para zerar:")
     label_tempo_medio.pack()
     tempos_medio = tempos_medio_validos
-    tempo_medio_combobox = ttk.Combobox(frame_formulario, values=tempos_medio)
+    tempo_medio_combobox = ttk.Combobox(frame_formulario, values=tempos_medio, state="readonly", textvariable=tempos_medio)
     tempo_medio_combobox.pack()
     tempo_medio_combobox.config(width=30)
 
@@ -72,6 +74,7 @@ def criar_interface():
     janela.mainloop()
 
 def coletar_informacoes(entry_nome, entry_idade, genero_combobox, plataforma_combobox, faixa_de_preco_combobox, tempo_medio_combobox):
+
     nome = entry_nome.get()
     idade = entry_idade.get()
     genero = genero_combobox.get()
@@ -111,7 +114,8 @@ def coletar_informacoes(entry_nome, entry_idade, genero_combobox, plataforma_com
     mostrar_recomendacao(janela, jogo_recomendado)
 
 def recomendar_jogo(dados, jogador):
-    jogos = dados.get("jogos", [])
+
+    jogos = dados.get("jogos")
     jogos_compativeis = []
 
     for jogo in jogos:
@@ -125,6 +129,7 @@ def recomendar_jogo(dados, jogador):
         return None
 
 def calcular_compatibilidade(jogo, jogador):
+
     faixas_de_preco = {
         "Até 100 reais": 100,
         "Até 200 reais": 200,
@@ -140,6 +145,7 @@ def calcular_compatibilidade(jogo, jogador):
     if jogador['genero_preferido'] in jogo['genero'] and jogador['plataforma'] in jogo['plataformas']:
         faixa_preco = jogo['preco']
         faixa_preco_jogador = faixas_de_preco.get(jogador['faixa_de_preco'])
+
         tempo_medio = jogo['tempo_medio_para_zerar']
         tempo_medio_jogador = tempos_medios.get(jogador['tempo_medio'])
 
@@ -148,11 +154,15 @@ def calcular_compatibilidade(jogo, jogador):
 
     return False
 
-def mostrar_recomendacao(frame_formulario, jogo_recomendado):
-    for widget in frame_formulario.winfo_children():
+def mostrar_recomendacao(janela, jogo_recomendado):
+    
+    for widget in janela.winfo_children():
         widget.pack_forget()
 
-    label_recomendacao = tkinter.Label(frame_formulario, text="Jogo recomendado:")
+    frame_recomendacao = tkinter.Frame(janela)  
+    frame_recomendacao.pack()
+
+    label_recomendacao = tkinter.Label(frame_recomendacao, text="Jogo recomendado:")
     label_recomendacao.pack()
 
     if jogo_recomendado is not None:
@@ -160,10 +170,10 @@ def mostrar_recomendacao(frame_formulario, jogo_recomendado):
     else:
         resultado_text = "Nenhum jogo compatível com o perfil enviado"
 
-    label_resultado = tkinter.Label(frame_formulario, text=resultado_text)
+    label_resultado = tkinter.Label(frame_recomendacao, text=resultado_text)
     label_resultado.pack()
 
-    botao_voltar = tkinter.Button(frame_formulario, text="Solicitar outra recomendação", command=lambda: reiniciar(frame_formulario))
+    botao_voltar = tkinter.Button(frame_recomendacao, text="Solicitar outra recomendação", command=lambda: reiniciar(janela))
     botao_voltar.pack()
     botao_voltar.config(bg="blue")
     botao_voltar.config(fg="white")
