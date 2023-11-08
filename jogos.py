@@ -82,8 +82,12 @@ def coletar_informacoes(entry_nome, entry_idade, genero_combobox, plataforma_com
     faixa_de_preco = faixa_de_preco_combobox.get()
     tempo_medio = tempo_medio_combobox.get()
 
-    if not nome or not idade:
-        messagebox.showerror("Erro", "Nome e idade são campos obrigatórios")
+    if not nome:
+        messagebox.showerror("Erro", "Nome é um campo obrigatório")
+        return
+    
+    if not idade:
+        messagebox.showerror("Erro", "idade é um campo obrigatório")
         return
 
     if genero not in generos_validos:
