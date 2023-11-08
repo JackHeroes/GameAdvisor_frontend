@@ -75,37 +75,25 @@ def criar_interface():
 
 def coletar_informacoes(entry_nome, entry_idade, genero_combobox, plataforma_combobox, faixa_de_preco_combobox, tempo_medio_combobox):
     campos = {
-        'nome': entry_nome.get(),
-        'idade': entry_idade.get(),
-        'genero': genero_combobox.get(),
-        'plataforma': plataforma_combobox.get(),
-        'faixa_de_preco': faixa_de_preco_combobox.get(),
-        'tempo_medio': tempo_medio_combobox.get()
+        'Nome': entry_nome.get(),
+        'Idade': entry_idade.get(),
+        'Gênero favorito': genero_combobox.get(),
+        'Plataforma': plataforma_combobox.get(),
+        'Faixa de preço': faixa_de_preco_combobox.get(),
+        'Tempo médio para zerar': tempo_medio_combobox.get()
     }
 
     for campo, valor in campos.items():
         if not valor:
             messagebox.showerror("Erro", f"{campo} é um campo obrigatório")
             return
-        elif campo == 'genero' and valor not in generos_validos:
-            messagebox.showerror("Erro", "Gênero inválido")
-            return
-        elif campo == 'plataforma' and valor not in plataformas_validas:
-            messagebox.showerror("Erro", "Plataforma inválida")
-            return
-        elif campo == 'faixa_de_preco' and valor not in faixas_de_preco_validas:
-            messagebox.showerror("Erro", "Faixa de preço inválida")
-            return
-        elif campo == 'tempo_medio' and valor not in tempos_medio_validos:
-            messagebox.showerror("Erro", "Tempo médio inválido")
-            return
 
     dados = ler_dados()
     jogador = {
-        'genero_preferido': campos['genero'],
-        'plataforma': campos['plataforma'],
-        'faixa_de_preco': campos['faixa_de_preco'],
-        'tempo_medio': campos['tempo_medio']
+        'genero_preferido': campos['Gênero favorito'],
+        'plataforma': campos['Plataforma'],
+        'faixa_de_preco': campos['Faixa de preço'],
+        'tempo_medio': campos['Tempo médio para zerar']
     }
 
     jogo_recomendado = recomendar_jogo(dados, jogador)
