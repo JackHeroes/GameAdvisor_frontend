@@ -161,15 +161,7 @@
             "metacritic": 0
         },
         {
-            "titulo": "Apex Legends",
-            "genero": "FPS",
-            "plataformas": [],
-            "preco": 0,
-            "tempo_medio_para_zerar": 0,
-            "metacritic": 0
-        },
-        {
-            "titulo": "Battlefield V",
+            "titulo": "Battlefield 2042",
             "genero": "FPS",
             "plataformas": [],
             "preco": 0,
@@ -193,15 +185,7 @@
             "metacritic": 81
         },
         {
-            "titulo": "Call of Duty: Modern Warfare",
-            "genero": "FPS",
-            "plataformas": [],
-            "preco": 0,
-            "tempo_medio_para_zerar": 0,
-            "metacritic": 0
-        },
-        {
-            "titulo": "Counter-Strike: Global Offensive",
+            "titulo": "Call of Duty: Black Ops Cold War",
             "genero": "FPS",
             "plataformas": [],
             "preco": 0,
@@ -210,14 +194,6 @@
         },
         {
             "titulo": "Destiny 2",
-            "genero": "FPS",
-            "plataformas": [],
-            "preco": 0,
-            "tempo_medio_para_zerar": 0,
-            "metacritic": 0
-        },
-        {
-            "titulo": "Doom (2016)",
             "genero": "FPS",
             "plataformas": [],
             "preco": 0,
@@ -241,14 +217,6 @@
             "metacritic": 73
         },
         {
-            "titulo": "Halo: The Master Chief Collection",
-            "genero": "FPS",
-            "plataformas": [],
-            "preco": 0,
-            "tempo_medio_para_zerar": 0,
-            "metacritic": 0
-        },
-        {
             "titulo": "Metro Exodus",
             "genero": "FPS",
             "plataformas": [],
@@ -257,39 +225,7 @@
             "metacritic": 0
         },
         {
-            "titulo": "Overwatch",
-            "genero": "FPS",
-            "plataformas": [],
-            "preco": 0,
-            "tempo_medio_para_zerar": 0,
-            "metacritic": 0
-        },
-        {
-            "titulo": "Paladins",
-            "genero": "FPS",
-            "plataformas": [],
-            "preco": 0,
-            "tempo_medio_para_zerar": 0,
-            "metacritic": 0
-        },
-        {
-            "titulo": "Payday 2",
-            "genero": "FPS",
-            "plataformas": [],
-            "preco": 0,
-            "tempo_medio_para_zerar": 0,
-            "metacritic": 0
-        },
-        {
-            "titulo": "Prey (2017)",
-            "genero": "FPS",
-            "plataformas": [],
-            "preco": 0,
-            "tempo_medio_para_zerar": 0,
-            "metacritic": 0
-        },
-        {
-            "titulo": "Quake Champions",
+            "titulo": "Prey",
             "genero": "FPS",
             "plataformas": [],
             "preco": 0,
@@ -313,36 +249,12 @@
             "metacritic": 0
         },
         {
-            "titulo": "Valorant",
+            "titulo": "Wolfenstein II: The New Colossus",
             "genero": "FPS",
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
             "metacritic": 0
-        },
-        {
-            "titulo": "Wolfenstein: The New Order",
-            "genero": "FPS",
-            "plataformas": [],
-            "preco": 0,
-            "tempo_medio_para_zerar": 0,
-            "metacritic": 0
-        },
-        {
-            "titulo": "Borderlands 3",
-            "genero": "FPS",
-            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
-            "preco": 119.90,
-            "tempo_medio_para_zerar": 40,
-            "metacritic": 81
-        },
-        {
-            "titulo": "Far Cry 6",
-            "genero": "FPS",
-            "plataformas": ["PC", "PlayStation", "Xbox"],
-            "preco": 249.99,
-            "tempo_medio_para_zerar": 40,
-            "metacritic": 73
         },
         {
             "titulo": "Baldur's Gate III",
@@ -375,6 +287,14 @@
             "preco": 229.90,
             "tempo_medio_para_zerar": 50,
             "metacritic": 89
+        },
+        {
+            "titulo": "Disco Elysium",
+            "genero": "RPG",
+            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
+            "preco": 75.49,
+            "tempo_medio_para_zerar": 30,
+            "metacritic": 91
         },
         {
             "titulo": "Divinity: Original Sin 2",
@@ -417,22 +337,6 @@
             "metacritic": 96
         },
         {
-            "titulo": "Horizon Zero Dawn",
-            "genero": "RPG",
-            "plataformas": ["PC", "PlayStation"],
-            "preco": 199.90,
-            "tempo_medio_para_zerar": 50,
-            "metacritic": 84
-        },
-        {
-            "titulo": "Fable Anniversary",
-            "genero": "RPG",
-            "plataformas": ["PC", "Xbox"],
-            "preco": 63.99,
-            "tempo_medio_para_zerar": 20,
-            "metacritic": 68
-        },
-        {
             "titulo": "Final Fantasy XVI",
             "genero": "RPG",
             "plataformas": ["PlayStation"],
@@ -447,6 +351,22 @@
             "preco": 349.90,
             "tempo_medio_para_zerar": 40,
             "metacritic": 94
+        },
+        {
+            "titulo": "Horizon Forbidden West",
+            "genero": "RPG",
+            "plataformas": ["PC", "PlayStation"],
+            "preco": 249.50,
+            "tempo_medio_para_zerar": 60,
+            "metacritic": 88
+        },
+        {
+            "titulo": "Persona 5 Royal",
+            "genero": "RPG",
+            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
+            "preco": 289.00,
+            "tempo_medio_para_zerar": 120,
+            "metacritic": 95
         },
         {
             "titulo": "Pillars of Eternity II: Deadfire",
@@ -471,14 +391,6 @@
             "preco": 154.90,
             "tempo_medio_para_zerar": 60,
             "metacritic": 87
-        },
-        {
-            "titulo": "The Dwarves",
-            "genero": "RPG",
-            "plataformas": ["PC", "PlayStation", "Xbox"],
-            "preco": 69.99,
-            "tempo_medio_para_zerar": 10,
-            "metacritic": 61
         },
         {
             "titulo": "The Elder Scrolls V: Skyrim",
