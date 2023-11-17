@@ -6,7 +6,7 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 78
         },
         {
             "titulo": "Assassin's Creed Valhalla",
@@ -14,7 +14,7 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 80
         },
         {
             "titulo": "Batman: Arkham Knight",
@@ -22,7 +22,15 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 87
+        },
+        {
+            "titulo": "Control",
+            "genero": "Ação e aventura",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 82
         },
         {
             "titulo": "Devil May Cry 5",
@@ -30,7 +38,7 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 87
         },
         {
             "titulo": "Dying Light 2",
@@ -38,7 +46,7 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 76
         },
         {
             "titulo": "Ghost of Tsushima",
@@ -57,14 +65,6 @@
             "metacritic": 97
         },
         {
-            "titulo": "Just Cause 4",
-            "genero": "Ação e aventura",
-            "plataformas": [],
-            "preco": 0,
-            "tempo_medio_para_zerar": 0,
-            "metacritic": 0
-        },
-        {
             "titulo": "Marvel's Spider-Man 2",
             "genero": "Ação e aventura",
             "plataformas": ["PlayStation"],
@@ -78,7 +78,7 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 93
         },
         {
             "titulo": "Nioh 2",
@@ -86,7 +86,7 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 85
         },
         {
             "titulo": "Red Dead Redemption 2",
@@ -102,7 +102,7 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 84
         },
         {
             "titulo": "Sekiro: Shadows Die Twice",
@@ -110,7 +110,7 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 90
         },
         {
             "titulo": "Shadow of the Tomb Raider",
@@ -118,7 +118,7 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 75
         },
         {
             "titulo": "Star Wars Jedi: Survivor",
@@ -126,7 +126,7 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 85
         },
         {
             "titulo": "The Last of Us Part II",
@@ -134,23 +134,23 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 93
         },
         {
-            "titulo": "Tom Clancy's Ghost Recon Breakpoint",
-            "genero": "Ação e aventura",
-            "plataformas": [],
-            "preco": 0,
-            "tempo_medio_para_zerar": 0,
-            "metacritic": 0
-        },
-        {
-            "titulo": "UNCHARTED™: Legado dos Ladrões",
+            "titulo": "UNCHARTED: Legado dos Ladrões",
             "genero": "Ação e aventura",
             "plataformas": ["PC", "PlayStation"],
             "preco": 199.90,
             "tempo_medio_para_zerar": 30,
             "metacritic": 87
+        },
+        {
+            "titulo": "Watch Dogs: Legion",
+            "genero": "Ação e aventura",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 76
         },
         {
             "titulo": "Yakuza: Like a Dragon",
