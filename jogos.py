@@ -74,6 +74,7 @@ def criar_interface():
     janela.mainloop()
 
 def coletar_informacoes(entry_nome, entry_idade, genero_combobox, plataforma_combobox, faixa_de_preco_combobox, tempo_medio_combobox):
+    
     campos = {
         'Nome': entry_nome.get(),
         'Idade': entry_idade.get(),
