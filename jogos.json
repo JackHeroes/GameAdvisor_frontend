@@ -1,6 +1,46 @@
 {
     "jogos": [
         {
+            "titulo": "A Way Out",
+            "genero": "Ação e aventura",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Assassin's Creed Valhalla",
+            "genero": "Ação e aventura",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Batman: Arkham Knight",
+            "genero": "Ação e aventura",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Devil May Cry 5",
+            "genero": "Ação e aventura",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Dying Light 2",
+            "genero": "Ação e aventura",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
             "titulo": "Ghost of Tsushima",
             "genero": "Ação e aventura",
             "plataformas": ["PlayStation"],
@@ -17,12 +57,36 @@
             "metacritic": 97
         },
         {
+            "titulo": "Just Cause 4",
+            "genero": "Ação e aventura",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
             "titulo": "Marvel's Spider-Man 2",
             "genero": "Ação e aventura",
             "plataformas": ["PlayStation"],
             "preco": 349.90,
             "tempo_medio_para_zerar": 30,
             "metacritic": 90
+        },
+        {
+            "titulo": "Metal Gear Solid V: The Phantom Pain",
+            "genero": "Ação e aventura",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Nioh 2",
+            "genero": "Ação e aventura",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
         },
         {
             "titulo": "Red Dead Redemption 2",
@@ -33,6 +97,54 @@
             "metacritic": 97
         },
         {
+            "titulo": "Resident Evil Village",
+            "genero": "Ação e aventura",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Sekiro: Shadows Die Twice",
+            "genero": "Ação e aventura",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Shadow of the Tomb Raider",
+            "genero": "Ação e aventura",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Star Wars Jedi: Survivor",
+            "genero": "Ação e aventura",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "The Last of Us Part II",
+            "genero": "Ação e aventura",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Tom Clancy's Ghost Recon Breakpoint",
+            "genero": "Ação e aventura",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
             "titulo": "UNCHARTED™: Legado dos Ladrões",
             "genero": "Ação e aventura",
             "plataformas": ["PC", "PlayStation"],
@@ -41,12 +153,180 @@
             "metacritic": 87
         },
         {
-            "titulo": "Yakuza 0",
+            "titulo": "Yakuza: Like a Dragon",
             "genero": "Ação e aventura",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Apex Legends",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Battlefield V",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "BioShock Infinite",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Borderlands 3",
+            "genero": "FPS",
+            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
+            "preco": 119.90,
+            "tempo_medio_para_zerar": 40,
+            "metacritic": 81
+        },
+        {
+            "titulo": "Call of Duty: Modern Warfare",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Counter-Strike: Global Offensive",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Destiny 2",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Doom (2016)",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Doom Eternal",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Far Cry 6",
+            "genero": "FPS",
             "plataformas": ["PC", "PlayStation", "Xbox"],
-            "preco": 89.50,
-            "tempo_medio_para_zerar": 60,
-            "metacritic": 85
+            "preco": 249.99,
+            "tempo_medio_para_zerar": 40,
+            "metacritic": 73
+        },
+        {
+            "titulo": "Halo: The Master Chief Collection",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Metro Exodus",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Overwatch",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Paladins",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Payday 2",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Prey (2017)",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Quake Champions",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Rainbow Six Siege",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Titanfall 2",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Valorant",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
+        },
+        {
+            "titulo": "Wolfenstein: The New Order",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 0
         },
         {
             "titulo": "Borderlands 3",
@@ -145,14 +425,6 @@
             "metacritic": 84
         },
         {
-            "titulo": "Indivisible",
-            "genero": "RPG",
-            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
-            "preco": 141.86,
-            "tempo_medio_para_zerar": 20,
-            "metacritic": 77
-        },
-        {
             "titulo": "Fable Anniversary",
             "genero": "RPG",
             "plataformas": ["PC", "Xbox"],
@@ -175,22 +447,6 @@
             "preco": 349.90,
             "tempo_medio_para_zerar": 40,
             "metacritic": 94
-        },
-        {
-            "titulo": "GreedFall",
-            "genero": "RPG",
-            "plataformas": ["PC", "PlayStation", "Xbox"],
-            "preco": 119.90,
-            "tempo_medio_para_zerar": 40,
-            "metacritic": 72
-        },
-        {
-            "titulo": "Ni no Kuni II: Revenant Kingdom",
-            "genero": "RPG",
-            "plataformas": ["PC", "Nintendo", "PlayStation", "Xbox"],
-            "preco": 257.90,
-            "tempo_medio_para_zerar": 50,
-            "metacritic": 84
         },
         {
             "titulo": "Pillars of Eternity II: Deadfire",
@@ -247,14 +503,6 @@
             "preco": 129.99,
             "tempo_medio_para_zerar": 100,
             "metacritic": 92
-        },
-        {
-            "titulo": "Trials of Mana",
-            "genero": "RPG",
-            "plataformas": ["PC", "Nintendo", "PlayStation"],
-            "preco": 159.99 ,
-            "tempo_medio_para_zerar": 30,
-            "metacritic": 76
         }
     ]
 }
