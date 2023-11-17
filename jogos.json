@@ -137,7 +137,7 @@
             "metacritic": 93
         },
         {
-            "titulo": "UNCHARTED: Legado dos Ladrões",
+            "titulo": "UNCHARTED 4: A Thief's End",
             "genero": "Ação e aventura",
             "plataformas": ["PC", "PlayStation"],
             "preco": 199.90,
@@ -161,12 +161,20 @@
             "metacritic": 0
         },
         {
-            "titulo": "Battlefield 2042",
+            "titulo": "Apex Legends",
             "genero": "FPS",
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 89
+        },
+        {
+            "titulo": "Atomic Heart",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 70
         },
         {
             "titulo": "BioShock Infinite",
@@ -174,7 +182,7 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 94
         },
         {
             "titulo": "Borderlands 3",
@@ -185,12 +193,36 @@
             "metacritic": 81
         },
         {
+            "titulo": "Bulletstorm",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 75
+        },
+        {
             "titulo": "Call of Duty: Black Ops Cold War",
             "genero": "FPS",
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 76
+        },
+        {
+            "titulo": "Call of Juarez: Gunslinger",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 76
+        },
+        {
+            "titulo": "DEATHLOOP",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 88
         },
         {
             "titulo": "Destiny 2",
@@ -198,7 +230,15 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 85
+        },
+        {
+            "titulo": "Deus Ex: Mankind Divided",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 84
         },
         {
             "titulo": "Doom Eternal",
@@ -206,7 +246,7 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 88
         },
         {
             "titulo": "Far Cry 6",
@@ -217,12 +257,28 @@
             "metacritic": 73
         },
         {
+            "titulo": "GTFO",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 78
+        },
+        {
+            "titulo": "Hunt: Showdown",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 81
+        },
+        {
             "titulo": "Metro Exodus",
             "genero": "FPS",
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 82
         },
         {
             "titulo": "Prey",
@@ -230,15 +286,15 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 79
         },
         {
-            "titulo": "Rainbow Six Siege",
+            "titulo": "RAGE 2",
             "genero": "FPS",
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 73
         },
         {
             "titulo": "Titanfall 2",
@@ -246,7 +302,15 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 89
+        },
+        {
+            "titulo": "Tom Clancy's Rainbow Six Siege",
+            "genero": "FPS",
+            "plataformas": [],
+            "preco": 0,
+            "tempo_medio_para_zerar": 0,
+            "metacritic": 73
         },
         {
             "titulo": "Wolfenstein II: The New Colossus",
@@ -254,7 +318,7 @@
             "plataformas": [],
             "preco": 0,
             "tempo_medio_para_zerar": 0,
-            "metacritic": 0
+            "metacritic": 87
         },
         {
             "titulo": "Baldur's Gate III",
